@@ -303,3 +303,4 @@ httpHeaders () { /usr/bin/curl -I -L $@ ; }             # httpHeaders:      Grab
 alias gup='git fetch --prune && git pull'
 
 # if [ -f ~/.bashrc ]; then . ~/.bashrc; fi
+export PATH="$HOME/.cargo/bin:$PATH"
